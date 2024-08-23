@@ -1,0 +1,98 @@
+.font-link-barr {
+  font-family: 'Barriecito', cursive;
+}
+
+.font-link-Rub {
+  font-family: 'Rubik', sans-serif;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.App {
+  width: 1000px;
+}
+
+.board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.board-list {
+ margin-top: 20px;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 16px;
+ justify-items: center;
+}
+
+.board-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-item-container:hover {
+  transform: scale(1.05);
+}
+
+.circle-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%;
+  border: 2px solid #e4e4e4;
+  overflow: hidden;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.playing {
+  animation: pulse 1s infinite;
+  border: 2px solid #1976D2;
+  border-radius: 50%;
+}
+
+.board-item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-style {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: rgb(231, 231, 231);
+  border: 2px solid #000;
+  box-shadow: 24;
+  padding: 4;
+}
+
+.delete-button {
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+  z-index: 1; 
+  cursor: pointer;
+}

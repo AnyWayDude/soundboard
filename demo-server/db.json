@@ -1,0 +1,80 @@
+{
+  "soundboards": [
+    {
+      "id": 1,
+      "name": "Characters",
+      "image": "https://i.gyazo.com/0af8e52240aabd7a7a41f95da7325f28.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Animals",
+      "image": "https://i.gyazo.com/549e0fea36ef04284dc5b918fb6be9a5.jpg"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Rick",
+      "image": "https://i.gyazo.com/15bdfdfe126db8b1f47d3ff9d7f9c257.jpg",
+      "sound": "https://drive.google.com/uc?id=1bb3M9XeQT7W_2hPZr8T5u4d7i7HT4w7v&export=download",
+      "quote": "Keep your hands off your DING DONG",
+      "soundboardId": 1
+    },
+    {
+      "id": 2,
+      "name": "Homer",
+      "image": "https://i.gyazo.com/8e38a6511a19542b844f99469b134297.jpg",
+      "sound": "https://drive.google.com/uc?id=1XWwv34ifuLxyY-dO3TSIs2zusuu_wBUk&export=download",
+      "quote": "Grilled Cheeze Sandwich",
+      "soundboardId": 1
+    },
+    {
+      "id": 3,
+      "name": "Itachi",
+      "image": "https://i.gyazo.com/04a72666016ee94b42e3f693dc28c232.jpg",
+      "sound": " https://drive.google.com/uc?id=14swPJhXKD_hgYXYvxtePYtZSpcwcFzZr&export=download",
+      "quote": "Chidori...",
+      "soundboardId": 1
+    },
+    {
+      "id": 4,
+      "name": "CJ",
+      "image": "https://i.gyazo.com/03c06a27c2c55c35938fba8f49df7e8d.jpg",
+      "sound": "https://drive.google.com/uc?id=1YnQ3-AzaWG3oXSJd9NKWLvjL90IMdLZm&export=download",
+      "quote": "Come On Then Fight",
+      "soundboardId": 1
+    },
+    {
+      "id": 5,
+      "name": "Crotalinae",
+      "image": "https://i.gyazo.com/bf8c4a3e7ab5e564e07e0ba07ed63b12.jpg",
+      "sound": "https://drive.google.com/uc?id=1-xRRv_Oh8G8V6LpTc4B4s6ZuocS0k4Sl&export=download",
+      "quote": "Rattles its tail",
+      "soundboardId": 2
+    },
+    {
+      "id": 6,
+      "name": "Blue Whale",
+      "image": "https://i.gyazo.com/0dd605fc32cddd9e01a19568d941eafe.jpg",
+      "sound": "https://drive.google.com/uc?id=15f1_jlTJACcxjs0QOux9dMhk-o-LsuQO&export=download",
+      "quote": "Whale hanging out with his homies",
+      "soundboardId": 2
+    },
+    {
+      "id": 7,
+      "name": "Pig",
+      "image": "https://i.gyazo.com/5a1fc1c4a4d00b7fd7b895edd758ca64.png",
+      "sound": "https://drive.google.com/uc?id=1UM28RXCNVhExw0D_Fm6nmszS8EhTIKyT&export=download",
+      "quote": "groink, groink, groink",
+      "soundboardId": 2
+    },
+    {
+      "name": "Picle-Rick",
+      "image": "https://i.gyazo.com/79b6022b9905cbe169b23629e93aade5.jpg",
+      "sound": "https://drive.google.com/uc?id=16DcEcBR_fmpz8_IyBKt6o7sl6ZQLWUWg&export=download",
+      "quote": "blalalal",
+      "soundboardId": 1,
+      "id": 8
+    }
+  ]
+}
